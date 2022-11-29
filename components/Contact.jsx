@@ -4,6 +4,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Image from 'next/image';
+
 
 const Contact = () => {
   return (
@@ -16,10 +18,11 @@ const Contact = () => {
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
-              <img
+              <Image
                 className="rounded-xl hover:scale-105 ease-in duration-300"
                 src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 alt="/"
+                layout='fill'
               />
               <div>
                 <h2 className="py-2 text-[#FF8C32]">Jongjate</h2>

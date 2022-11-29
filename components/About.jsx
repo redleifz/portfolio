@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -24,8 +25,9 @@ const About = () => {
           <p className="py-2 text-slute-100 underline cursor-pointer">Check out some of my latest projects.</p>
         </div>
         <div className="w-full h-auto m-auto shadow-lg shadow-gray-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
+          <Image
             className="rounded-xl"
+            layout='fill'
             src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80"
             alt="/"
           />
