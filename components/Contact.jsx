@@ -26,15 +26,15 @@ const Contact = () => {
                 <p>Front-End Web Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and let&apos;s talk.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Contact with me</p>
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
                   <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
-            hover:scale-110 
+                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer
+            hover:scale-110
             hover:bg-[#EEEEEE]/50
             hover:text-black
             ease-in duration-300"

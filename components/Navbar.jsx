@@ -32,7 +32,7 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  
+
 
   useEffect(() => {
     const handleShadow = () => {
@@ -129,7 +129,7 @@ const Navbar = () => {
           </div>
           <div className="border-b border-gray-300 my-4">
             <p className="w-[85%] md:w-[90%] py-4">
-              Let's build something legendary together
+              Let&apos;s build something legendary together
             </p>
           </div>
 
@@ -139,11 +139,11 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="text-sm text-[#ff9545]
-                  
+
                   "
                 >
                   <p className="py-5 pl-3">Home</p>
-                  
+
                 </li>
               </Link>
               <Link href="/#about">
@@ -190,7 +190,7 @@ const Navbar = () => {
           </div>
           <div className="pt-20 xs:hidden">
             <p className="uppercase tracking-wide text-[#ff9545]">
-              Let's Connect
+              Let&apos;s Connect
             </p>
             <div className="flex items-center justify-between pt-4 my-4 w-full sm:w-[80%]">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 hover:bg-[#EEEEEE]/50 hover:text-black ease-in duration-300">

@@ -14,24 +14,24 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="z-[2] text-center">
           <p className="uppercase py-4 text-sm tracking-wide text-[#EEEEEE]">
-            Let's build something together
+            Let&apos;s build something together
           </p>
           <h1 className="py-4 text-[#EEEEEE]">
-            Hi, I'm <span className="text-[#FF8C32]">Jongjate</span>
+            Hi, I&apos;m <span className="text-[#FF8C32]">Jongjate</span>
           </h1>
           <h1 className="py-4 text-[#EEEEEE]">A Front-End Web Developer</h1>
           <p>
-            I'm a front-end web developer specializing in building (and
-            occasionally designing) experiences. Currently, I'm focused on
+            I&apos;m a front-end web developer specializing in building (and
+            occasionally designing) experiences. Currently, I&apos;m focused on
             building responsive front-end web application while learning
             back-end technoloies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
             <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
-              
+
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
-            hover:scale-110 
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer
+            hover:scale-110
             hover:bg-[#EEEEEE]/50
             hover:text-black
             ease-in duration-300"
