@@ -14,13 +14,13 @@ const About = () => {
           <p className="py-2 text-slute-100">
             I am develop front-end websites , connecting backend and other
             technologies. I am very motivated to learn new technologies.
-            Although I'm most proficient in HTML, CSS, Javascript, and React web
-            development, I'm a fast learner. and often spends free time go with
+            Although I&apos;m most proficient in HTML, CSS, Javascript, and React web
+            development, I&apos;m a fast learner. and often spends free time go with
             learning new things with passion always ,For example studying
             technology on the backend side, such as NodeJS-Express,
             DjangoRestframework for develop my potential to a Full-Stack
             Developer, I will be able to use programming tools to solve any
-            problem. I don't stick to the language. Because I believe that
+            problem. I don&apos;t stick to the language. Because I believe that
             language is just a tool to solve problems and I have to choose the
             right tool for the job and the problem that I have to solve.
             {/* ฉันเป็นพัฒนาเว็บไซต์ส่วนหน้า ที่เชื่อมต่อ backend และเทคโนโลยีอื่น ๆ ฉันมีแรงบัลดาลในในการเรียนรู้เทคโลโยลีใหม่ๆ            

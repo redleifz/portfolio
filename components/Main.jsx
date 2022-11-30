@@ -14,17 +14,17 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="z-[2] text-center">
           <p className="uppercase py-4 text-sm tracking-wide text-[#EEEEEE]">
-            Let's build something together
+              Let&apos;s build something together
           </p>
           <h1 className="py-4 text-[#EEEEEE]">
-            Hi, I'm <span className="text-[#FF8C32]">Jongjate</span>
+          Hi, I&apos;m <span className="text-[#FF8C32]">Jongjate</span>
           </h1>
           <h1 className="py-4 text-[#EEEEEE]">A Front-End Web Developer</h1>
           <p>
             I am an expert in website front-end development. (And there are
             times when I do my own design as I have some experience with
             graphics programs.) I am currently focusing on front-end web
-            development. However, I'm also interested in learning about back-end
+            development. However, I&apos;m also interested in learning about back-end
             development.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
