@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 const resume = () => {
   return (
@@ -11,25 +12,28 @@ const resume = () => {
         <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
-        <div className='my-4 p-4 w-full flex justify-between items-center'>
+        <div className="my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Jongjate Choomjairug</h2>
           <div className="flex">
-            <a
-              href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/"
-              target="_blank"
-              rel="noreferrer"
+            <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
+              <div
+                className="rounded-full shadow-md shadow-gray-400 p-2 mr-2 cursor-pointer 
+            hover:scale-110 
+            hover:bg-[#EEEEEE]/50
+            hover:text-black
+            ease-in duration-300"
+              >
+                <FaLinkedinIn />
+              </div>
+            </Link>
+            <div
+              className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
+            hover:text-black ease-in duration-300"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
-            </a>
-            <a
-              href="https://github.com/redleifz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub size={20} style={{ marginRight: "1rem" }} />
-            </a>
+              <FaGithub />
+            </div>
           </div>
         </div>
         <div className="text-center py-4 w-full text-xl font-bold uppercase tracking-wider">
@@ -40,26 +44,29 @@ const resume = () => {
             </p>
           </div>
           <div className="block sm:hidden">
-            <p>Proven Leadership</p>
-            <p className="py-2">Web Development</p>
-            <p>Complex Problem Solving</p>
+          <p>
+              Computer Technicial Support<span className="px-1">|</span>Web
+              Developer<span className="px-1"></span>
+            </p>
           </div>
         </div>
         <p></p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span> NextJS
-            <span className='px-2'>|</span>MySQL
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>Tailwind
+            
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span> NextJS
+            <span className="px-2">|</span>MySQL
             <span className="px-2">|</span>NodeJS
+            <span className="px-2">|</span>Nginx
             <span className="px-2">|</span>Github
             <span className="px-2">|</span>Swift
           </p>
@@ -112,11 +119,11 @@ const resume = () => {
             Computer Technicial Support (2017 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
-
             <li>
-            Install Computer Equipment ,Computer Peripherals , Network Equipment
-               ,Server computer , Central Database,Application Programs , Computer Systems ,
-               Operating system , Driver and some electronic devices within the organization
+              Install Computer Equipment ,Computer accessory , Network
+              Equipment ,Server computer , Central Database,Application Programs
+              , Computer Systems , Operating system , Driver and some electronic
+              devices within the organization
             </li>
             {/* <li>
               ติดตั้ง อุปกรณ์คอมพิวเตอร์ อุปกรณ์ต่อพ่วง อุปกรณ์เครือข่าย
@@ -124,53 +131,59 @@ const resume = () => {
               ระบบปฏิบัติการ และอุปกรณ์อิเล็กทรอนิกส์บางประเภทภายในองค์กร
             </li> */}
             <li>
-            Analyze and solve problems arising from computer usage. And peripherals in the work of users within the organization
+              Analyze and solve problems arising from computer usage. And
+              peripherals in the work of users within the organization
             </li>
             {/* <li>
               วิเคราะห์ และแก้ปัญหาที่เกิดจากการใช้งานคอมพิวเตอร์
               และอุปกรณ์ต่อพ่วงในการทำงานของผู้ใช้งานภายในองค์กร
             </li> */}
             <li>
-            Teaching how to use computers ,Peripherals,computer programs
-               and some electronic devices within the organization
+              Teaching how to use computers ,computer accessory,computer programs and
+              some electronic devices within the organization
               {/* สอนใช้งานคอมพิวเตอร์ อุปกรณ์ต่อพ่วง สอนใช้งานโปรแกรมคอมพิวเตอร์
               และอุปกรณ์อิเล็กทรอนิกส์บางประเภท ภายในองค์กร */}
             </li>
             <li>
-            Analyze, design, develop, test, maintain, set of commands and work systems within the organization as assigned.
+              Analyze, design, develop, test, maintain, set of commands and work
+              systems within the organization as assigned.
               {/* วิเคราะห์ความต้องการ ออกแบบ พัฒนา ทดสอบ ดูแลรักษา ชุดคำสั่ง
               และระบบงานภายในองค์กรตามที่รับมอบหมาย */}
             </li>
             <li>
-            Consulting, analyzing, designing, procuring, making purchase orders technology or system to develop the potential of working within the organization
+              Consulting, analyzing, designing, procuring, making purchase
+              orders technology or system to develop the potential of working
+              within the organization
               {/* ให้คำปรึกษา วิเคราะห์ ออกแบบ จัดหา จัดทำคำสังซื้อ
               เทคโนโลยีหรือระบบ เพื่อพัฒนาศักยภาพในการทำงานภายในองค์กร */}
             </li>
             <li>
-            Analysis Process statistical data, prepare reports and present as assigned.
+              Analysis Process statistical data, prepare reports and present as
+              assigned.
               {/* วิเคราะห์ความต้องการ ประมวลผลข้อมูลทางสถิติ จัดทำรายงาน และนำเสนอ
               ตามที่ได้รับมอบหมาย */}
             </li>
             <li>
-            Installation, maintenance, preparation of audio equipment, projection equipment, conference rooms, conference room systems meeting room via monitor
+              Installation, maintenance, preparation of audio equipment,
+              projection equipment, conference rooms, conference room systems
+              meeting room via monitor
               {/* ติดตั้ง ซ่อมบำรุง จัดเตรียม เครื่องเสียง อุปกรณ์ฉายภาพ ห้องประชุม
               ระบบห้องประชุม ห้องประชุมผ่านจอภาพ */}
             </li>
             <li>
-            Contact and coordinate with external agencies computer system
+              Contact and coordinate with external agencies computer system
               {/* ติดต่อ ประสานงานกับหน่วยงานภายนอกด้าน ระบบสารสนเทศ */}
-
             </li>
             <li>
-            Planning, designing, controlling, organizing, editing
-               information media, both still graphic and movie video as assigned
+              Planning, designing, controlling, organizing, editing information
+              media, both still graphic and movie video as assigned
               {/* วางแผน ออกแบบ ควบคุม จัดทำ ตัดต่อ
               สื่อสารสนเทศทั้งภาพนิ่งและภาพเคลื่อนไหว ตามที่ได้รับมอบหมาย */}
             </li>
             <li>
-            Perform other tasks as assigned
+              Perform other tasks as assigned
               {/* ปฏิบัติงานอื่นๆ ตามที่ได้รับมอบหมาย */}
-              </li>
+            </li>
           </ul>
         </div>
 

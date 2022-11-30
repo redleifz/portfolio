@@ -21,14 +21,14 @@ const Main = () => {
           </h1>
           <h1 className="py-4 text-[#EEEEEE]">A Front-End Web Developer</h1>
           <p>
-            I'm a front-end web developer specializing in building (and
-            occasionally designing) experiences. Currently, I'm focused on
-            building responsive front-end web application while learning
-            back-end technoloies.
+            I am an expert in website front-end development. (And there are
+            times when I do my own design as I have some experience with
+            graphics programs.) I am currently focusing on front-end web
+            development. However, I'm also interested in learning about back-end
+            development.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
             <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
-              
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
             hover:scale-110 
@@ -40,18 +40,23 @@ const Main = () => {
               </div>
             </Link>
 
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
+            <Link href="https://github.com/redleifz">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
             hover:text-black ease-in duration-300"
-            >
-              <FaGithub />
-            </div>
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+              >
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href="#contact">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
-            >
-              <AiOutlineMail />
-            </div>
+              >
+                <AiOutlineMail />
+              </div>
+            </Link>
+
             <Link href="/resume">
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50

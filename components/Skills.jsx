@@ -7,8 +7,8 @@ import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
 import NextJS from "../public/assets/skills/nextjs.png";
-import MySQL from "../public/assets/skills/MySQL.png";
-import NodeJs from "../public/assets/skills/NodeJS.png";
+import MySQL from "../public/assets/skills/mysql.png";
+import NodeJs from "../public/assets/skills/nodejs.png";
 
 const Skills = () => {
   return (

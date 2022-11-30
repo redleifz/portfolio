@@ -4,6 +4,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Image from "next/image";
+import ContactImg from '../public/assets/contact.jpeg';
 
 const Contact = () => {
   return (
@@ -16,50 +18,61 @@ const Contact = () => {
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
-              <img
-                className="rounded-xl hover:scale-105 ease-in duration-300"
-                src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                alt="/"
-              />
+            <Image
+                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  src={ContactImg}
+                  alt='/'
+                  objectFit="fill"
+                />
               <div>
                 <h2 className="py-2 text-[#FF8C32]">Jongjate</h2>
                 <p>Front-End Web Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and let&apos;s talk.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Contact with me</p>
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
+            <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
             hover:scale-110 
             hover:bg-[#EEEEEE]/50
             hover:text-black
             ease-in duration-300"
-                  >
-                    <FaLinkedinIn href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/" />
-                  </div>
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
+              >
+                <FaLinkedinIn />
+              </div>
+            </Link>
+
+            <Link href="https://github.com/redleifz">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
             hover:text-black ease-in duration-300"
-                  >
-                    <FaGithub />
-                  </div>
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+              >
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href="#contact">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
-                  >
-                    <AiOutlineMail />
-                  </div>
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+              >
+                <AiOutlineMail />
+              </div>
+            </Link>
+
+            <Link href="/resume">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </div>
+              >
+                <BsFillPersonLinesFill />
+              </div>
+            </Link>
+          </div>
               </div>
             </div>
           </div>
@@ -106,10 +119,12 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
-                <button className="w-full border py-2 mt-3 rounded-md shadow-md shadow-gray-400
+                <button
+                  className="w-full border py-2 mt-3 rounded-md shadow-md shadow-gray-400
                   hover:bg-[#eee]
                   hover:text-black
-                  duration-300">
+                  duration-300"
+                >
                   Send Message
                 </button>
               </form>
@@ -118,8 +133,10 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
-            hover:text-black duration-300">
+            <div
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+            hover:text-black duration-300"
+            >
               <HiOutlineChevronDoubleUp className="text-[#EEE]" size={30} />
             </div>
           </Link>
