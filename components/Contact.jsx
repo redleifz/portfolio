@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Image from "next/image";
-import ContactImg from '../public/assets/contact.jpeg';
+import ContactImg from "../public/assets/contact.jpeg";
 
 const Contact = () => {
   return (
@@ -18,12 +18,12 @@ const Contact = () => {
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
-            <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                  objectFit="fill"
-                />
+              <Image
+                className="rounded-xl shadow-sm shadow-gray-400 hover:scale-105 ease-in duration-300"
+                src={ContactImg}
+                alt="/"
+                // objectFit="fill"
+              />
               <div>
                 <h2 className="py-2 text-[#FF8C32]">Jongjate</h2>
                 <p>Front-End Web Developer</p>
@@ -35,44 +35,44 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Contact with me</p>
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
-            <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
-              <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
+                  <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
+                    <div
+                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
             hover:scale-110 
             hover:bg-[#EEEEEE]/50
             hover:text-black
             ease-in duration-300"
-              >
-                <FaLinkedinIn />
-              </div>
-            </Link>
+                    >
+                      <FaLinkedinIn />
+                    </div>
+                  </Link>
 
-            <Link href="https://github.com/redleifz">
-              <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
+                  <Link href="https://github.com/redleifz">
+                    <div
+                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
             hover:text-black ease-in duration-300"
-              >
-                <FaGithub />
-              </div>
-            </Link>
-            <Link href="#contact">
-              <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+                    >
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link href="#contact">
+                    <div
+                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
-              >
-                <AiOutlineMail />
-              </div>
-            </Link>
+                    >
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
 
-            <Link href="/resume">
-              <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
+                  <Link href="/resume">
+                    <div
+                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
-              >
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
-          </div>
+                    >
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
