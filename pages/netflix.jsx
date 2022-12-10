@@ -39,7 +39,7 @@ const netflix = () => {
 
           </p>
           <div className="mt-2">
-            <Link href="https://nettflux-react-tailwind-877gsym9j-redleifz.vercel.app/">  
+            <Link href="https://netflix-react-tailwind-4owtoqvf9-redleifz.vercel.app/">  
             <button className="px-8 py-2 mt-4 mr-8 border rounded-md 
             hover:bg-slate-200
             hover:text-black
