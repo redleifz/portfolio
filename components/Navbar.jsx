@@ -62,22 +62,22 @@ const Navbar = () => {
         <div className="py-3">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             {" "}
-            <Link href="/">
+            <Link href="/#home" scroll={false}>
               <li className="text-[#FF8C32] p-3 mx-2 text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" scroll={false}>
               <li className="text-[#FF8C32] p-3 mx-2  text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 About
               </li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" scroll={false}>
               <li className="text-[#FF8C32] p-3  mx-2 text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 Skills
               </li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" scroll={false}>
               <li className="text-[#FF8C32] p-3  mx-2  text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 Projects
               </li>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 Resume
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" scroll={false}>
               <li className="text-[#FF8C32] p-3 text-sm mx-2  uppercase hover:bg-orange-400 hover:text-black duration-200">
                 contact
               </li>
@@ -114,7 +114,7 @@ const Navbar = () => {
           }
         >
           <div className="flex w-full items-center justify-between">
-            <Link href="/">
+            <Link href="/" scroll={false}>
               <span className="text-4xl text-[#ff9545] font-bold">
                 Jongjate
               </span>
@@ -135,7 +135,7 @@ const Navbar = () => {
 
           <div className="flex py-4 ml-4">
             <ul className="uppercase flex flex-col">
-              <Link href="/">
+              <Link href="/" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="text-sm text-[#ff9545]
@@ -146,7 +146,7 @@ const Navbar = () => {
                   
                 </li>
               </Link>
-              <Link href="/#about">
+              <Link href="/#about" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm pl-2 text-[#ff9545]"
@@ -154,7 +154,7 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/#skills" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm pl-2 text-[#ff9545]"
@@ -162,7 +162,7 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <Link href="/#projects" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm pl-2 pr-3 text-[#ff9545]"
@@ -178,7 +178,7 @@ const Navbar = () => {
                   Resume
                 </li>
               </Link>
-              <Link href="/#contact">
+              <Link href="/#contact" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm pl-2 text-[#ff9545]"
