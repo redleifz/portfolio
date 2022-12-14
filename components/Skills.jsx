@@ -90,7 +90,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-lg bg-white/90  shadow-gray-400 rounded-xl hover:scale-105 hover:bg-white/100 ease-in duration-300">
+          {/* <div className="p-6 shadow-lg bg-white/90  shadow-gray-400 rounded-xl hover:scale-105 hover:bg-white/100 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={NextJS} width="64px" height="64px" alt="/" />
@@ -99,7 +99,7 @@ const Skills = () => {
                 <h3 className="text-xl xs:text-sm">NextJS</h3>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="p-6 shadow-lg bg-white/90  shadow-gray-400 rounded-xl hover:scale-105 hover:bg-white/100 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">

@@ -13,13 +13,13 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
     
-          <ProjectItem
+          {/* <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
             techStack='React/Tailwind/Firebase'
 
-          />
+          /> */}
           <ProjectItem
             title='Find Your Trip'
             backgroundImg={findyourtripImg}

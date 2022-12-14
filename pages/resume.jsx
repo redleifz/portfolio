@@ -63,12 +63,12 @@ const resume = () => {
             <span className="px-2">|</span>Tailwind
             
             <span className="px-2">|</span>React
-            <span className="px-2">|</span> NextJS
+            {/* <span className="px-2">|</span> NextJS */}
             <span className="px-2">|</span>MySQL
             <span className="px-2">|</span>NodeJS
-            <span className="px-2">|</span>Nginx
+            {/* <span className="px-2">|</span>Nginx */}
             <span className="px-2">|</span>Github
-            <span className="px-2">|</span>Swift
+            {/* <span className="px-2">|</span>Swift */}
           </p>
           {/* <p className='py-2'>
             <span className="font-bold">Technical Skills</span>
