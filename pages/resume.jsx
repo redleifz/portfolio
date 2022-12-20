@@ -55,35 +55,24 @@ const resume = () => {
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          
           <p className="py-2">
-            <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span> HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>Tailwind
-            
-            <span className="px-2">|</span>React
-            {/* <span className="px-2">|</span> NextJS */}
-            <span className="px-2">|</span>MySQL
-            <span className="px-2">|</span>NodeJS
-            {/* <span className="px-2">|</span>Nginx */}
-            <span className="px-2">|</span>Github
-            {/* <span className="px-2">|</span>Swift */}
-          </p>
-          {/* <p className='py-2'>
+           
             <span className="font-bold">Technical Skills</span>
             <span className="px-2">|</span>HTML
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>React
-            <span className="px-2">|</span>NextJS
-            <span className="px-2">|</span>MySql
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span>NodeJS
-            <span className="px-2">|</span>Express
+            
+            <span className="px-2">|</span> React
+            {/* <span className="px-2">|</span> NextJS */}
+            <span className="px-2">|</span> MySQL
+            <span className="px-2">|</span> NodeJS
+            {/* <span className="px-2">|</span>Nginx */}
             <span className="px-2">|</span>Github
-            <span className="px-2">|</span>Swift
-          </p> */}
+            {/* <span className="px-2">|</span>Swift */}
+          </p>
+     
           <p className="py-2">
             <span className="font-bold">Design Skills</span>
             <span className="px-2">|</span>Adobe Photoshop
