@@ -10,15 +10,11 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="flex items-center justify-center h-screen mb-3 bg-fixed bg-center bg-cover  z-[-2] "
+      className="flex items-center justify-center h-screen mb-3 bg-fixed bg-center bg-cover z-[-2] custom-img"
     >
       <div className="absolute h-screen top-0 left-0 right-0 bottom-0 bg-black/70 z-[1]" />
        <div className=" absolute h-scren top-0 left-0 right-0 bottom-0">
-        <Image
-          src={MainImg}
-          fill
-          alt="/"
-        />
+     
        </div>
     
      
