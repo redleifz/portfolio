@@ -110,7 +110,7 @@ const Navbar = () => {
           className={
             nav
               ? "md:hidden fixed left-0 top-0  w-[80%] sm:w-[60%] h-screen md:w-[45%] bg-black p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              : "fixed left-[-100%] w-[80%] h-screen top-0 p-10 ease-in duration-500"
           }
         >
           <div className="flex w-full items-center justify-between">
