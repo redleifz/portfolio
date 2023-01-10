@@ -18,7 +18,7 @@ const recipefood = () => {
         />
 
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Find Your Trip</h2>
+          <h2 className="py-2">Recipe Food</h2>
           <h3>ReactJs/Tailwind</h3>
         </div>
       </div>
@@ -29,8 +29,8 @@ const recipefood = () => {
           <h2>Overview</h2>
           <p className="mt-5">
             I built this application in ReactJS and is hosted on Vercel. This
-            app is about recipe food . People can search recipe food using free API.
-            That tell about Ingredients,Instructions and Vdo to do that  Let
+            app is about recipe food . People can search recipe food using free
+            API. That tell about Ingredients,Instructions and Vdo to do that Let
             Check it !
           </p>
           <div className="mt-2">
