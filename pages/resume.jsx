@@ -67,6 +67,7 @@ const resume = () => {
             <span className="px-2">|</span> React
             {/* <span className="px-2">|</span> NextJS */}
             <span className="px-2">|</span> MySQL
+            <span className="px-2">|</span> MongoDB
             <span className="px-2">|</span> NodeJS
             {/* <span className="px-2">|</span>Nginx */}
             <span className="px-2">|</span>Github
@@ -76,9 +77,6 @@ const resume = () => {
           <p className="py-2">
             <span className="font-bold">Design Skills</span>
             <span className="px-2">|</span>Adobe Photoshop
-            <span className="px-2">|</span>Adobe Animate
-            <span className="px-2">|</span>Adobe Premiere Pro
-            <span className="px-2">|</span>Vegas Pro
             <span className="px-2">|</span>Figma
           </p>
           <p className="py-2">

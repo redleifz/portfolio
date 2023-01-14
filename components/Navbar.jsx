@@ -32,8 +32,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  
-
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -56,9 +54,11 @@ const Navbar = () => {
     >
       {/* //web home */}
       <div className="flex justify-between bg-black items-center w-full h-full px-2 2xl:px-16 shadow-sm shadow-gray-400">
+      <Link href="/#home" scroll={false}>
         <span className="text-4xl text-[#FF8C32] font-bold cursor-pointer ease-in duration-200 sm:ml-2 xs:ml-1 ">
           Jongjate
         </span>
+        </Link>
         <div className="py-3">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             {" "}
@@ -110,11 +110,11 @@ const Navbar = () => {
           className={
             nav
               ? "md:hidden fixed left-0 top-0  w-[80%] sm:w-[60%] h-screen md:w-[45%] bg-black p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              : "fixed left-[-100%] h-full top-0 p-10 ease-in duration-500 xs:w-[60%] "
           }
         >
           <div className="flex w-full items-center justify-between">
-            <Link href="/" scroll={false}>
+            <Link href="/#home" scroll={false} onClick={handleNav}>
               <span className="text-4xl text-[#ff9545] font-bold">
                 Jongjate
               </span>
@@ -135,7 +135,7 @@ const Navbar = () => {
 
           <div className="flex py-4 ml-4">
             <ul className="uppercase flex flex-col">
-              <Link href="/" scroll={false}>
+              <Link href="/#home"  scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="text-sm text-[#ff9545]
@@ -143,7 +143,6 @@ const Navbar = () => {
                   "
                 >
                   <p className="py-5 pl-3">Home</p>
-                  
                 </li>
               </Link>
               <Link href="/#about" scroll={false}>
