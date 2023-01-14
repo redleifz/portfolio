@@ -10,14 +10,14 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="flex items-center justify-center h-screen mb-3 bg-fixed bg-center bg-cover z-[-2] custom-img"
+      className="flex items-center justify-center h-screen mb-3 bg-fixed bg-center bg-cover z-[-2]"
     >
-      <div className="absolute h-screen top-0 left-0 right-0 bottom-0 bg-black/70 z-[1]" />
-       <div className=" absolute h-scren top-0 left-0 right-0 bottom-0">
-     
-       </div>
     
-     
+      <div className="absolute h-screen top-0 left-0 right-0 bottom-0 bg-black/70 z-[1]" />
+      <div className="absolute h-screen top-0 left-0 right-0 bottom-0 z-[-2] custom-img">
+
+      
+      </div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="z-[2] text-center">
           <p className="uppercase py-4 xs:mt-3 text-sm tracking-wide text-[#EEEEEE]">
