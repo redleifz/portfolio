@@ -1,13 +1,16 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Image from "next/image";
 import ContactImg from "../public/assets/contact.jpeg";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiTwotoneMail } from "react-icons/ai";
 
 const Contact = () => {
+  const submitHandler = (e) => {
+    console.log('sumbit')
+    e.preventDefault()
+  };
   return (
     <div id="contact" className="w-full mt-6 lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -25,7 +28,7 @@ const Contact = () => {
                 // objectFit="fill"
               />
               <div>
-                <h2 className="py-2 text-[#FF8C32]">Jongjate</h2>
+                <h2 className="py-2 mt-2 text-[#FF8C32]">Jongjate</h2>
                 <p>Front-End Web Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
@@ -34,8 +37,20 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Contact with me</p>
-                <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
-                  <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
+                <div className="flex flex-col max-w-[330px] ml-5 mt-10">
+                  <div className="flex">
+                    <span className="mr-3 flex items-center">
+                      <BsFillTelephoneFill />
+                    </span>
+                    <span>085-832-1114</span>
+                  </div>
+                  <div className="mt-3 flex items-center">
+                    <span className="mr-3">
+                      <AiTwotoneMail />
+                    </span>
+                    <span>Jongjate.ch@gmail.com</span>
+                  </div>
+                  {/* <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
                     <div
                       className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
             hover:scale-110 
@@ -55,14 +70,6 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </Link>
-                  <Link href="#contact">
-                    <div
-                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
-            hover:text-black duration-300"
-                    >
-                      <AiOutlineMail />
-                    </div>
-                  </Link>
 
                   <Link href="/resume">
                     <div
@@ -71,12 +78,12 @@ const Contact = () => {
                     >
                       <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
           </div>
-{/* 
+          {/* 
           <div className="col-span-3 w-full h-auto shadow-lg shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-3"><span>Phone : 085-832-1114 </span></div>
             
@@ -130,6 +137,10 @@ const Contact = () => {
                   hover:bg-[#eee]
                   hover:text-black
                   duration-300"
+                  type="submit"
+                  onClick={(e) => {
+                    submitHandler(e);
+                  }}
                 >
                   Send Message
                 </button>

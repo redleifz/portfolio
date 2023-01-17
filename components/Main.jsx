@@ -1,10 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill, BsFillPersonsFill } from "react-icons/bs";
+import { BsFillPersonLinesFill} from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Image from "next/image";
-import MainImg from "../public/assets/main.jpeg"
+import { AiOutlineContacts } from "react-icons/ai";
 
 const Main = () => {
   return (
@@ -12,12 +10,8 @@ const Main = () => {
       id="home"
       className="flex items-center justify-center h-screen mb-3 bg-fixed bg-center bg-cover z-[-2]"
     >
-    
       <div className="absolute h-screen top-0 left-0 right-0 bottom-0 bg-black/70 z-[1]" />
-      <div className="absolute h-screen top-0 left-0 right-0 bottom-0 z-[-2] custom-img">
-
-      
-      </div>
+      <div className="absolute h-screen top-0 left-0 right-0 bottom-0 z-[-2] custom-img"></div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="z-[2] text-center">
           <p className="uppercase py-4 xs:mt-3 text-sm tracking-wide text-[#EEEEEE]">
@@ -55,12 +49,12 @@ const Main = () => {
                 <FaGithub />
               </div>
             </Link>
-            <Link href="#contact">
+            <Link href="#contact" scroll={false}>
               <div
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
             hover:text-black duration-300"
               >
-                <AiOutlineMail />
+                <AiOutlineContacts size={20} />
               </div>
             </Link>
 
