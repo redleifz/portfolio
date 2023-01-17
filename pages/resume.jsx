@@ -28,12 +28,14 @@ const resume = () => {
                 <FaLinkedinIn />
               </div>
             </Link>
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
+            <Link href="https://github.com/redleifz">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  hover:bg-[#EEEEEE]/50
             hover:text-black ease-in duration-300"
-            >
-              <FaGithub />
-            </div>
+              >
+                <FaGithub />
+              </div>
+            </Link>
           </div>
         </div>
         <div className="text-center py-4 w-full text-xl font-bold uppercase tracking-wider">
@@ -44,7 +46,7 @@ const resume = () => {
             </p>
           </div>
           <div className="block sm:hidden">
-          <p>
+            <p>
               Computer Technicial Support<span className="px-1">|</span>Web
               Developer<span className="px-1"></span>
             </p>
@@ -55,15 +57,13 @@ const resume = () => {
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          
+
           <p className="py-2">
-           
             <span className="font-bold">Technical Skills</span>
             <span className="px-2">|</span>HTML
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>Tailwind
-            
             <span className="px-2">|</span> React
             {/* <span className="px-2">|</span> NextJS */}
             <span className="px-2">|</span> MySQL
@@ -73,7 +73,7 @@ const resume = () => {
             <span className="px-2">|</span>Github
             {/* <span className="px-2">|</span>Swift */}
           </p>
-     
+
           <p className="py-2">
             <span className="font-bold">Design Skills</span>
             <span className="px-2">|</span>Adobe Photoshop
@@ -107,9 +107,9 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
             <li>
-              Install Computer Equipment ,Computer accessory , Network
-              Equipment ,Server computer , Central Database,Application Programs
-              , Computer Systems , Operating system , Driver and some electronic
+              Install Computer Equipment, Computer accessories, Network
+              Equipment,Server computer, Central Database, Application Programs
+              , Computer Systems, Operating system, Driver, and some electronic
               devices within the organization
             </li>
             {/* <li>
@@ -126,44 +126,44 @@ const resume = () => {
               และอุปกรณ์ต่อพ่วงในการทำงานของผู้ใช้งานภายในองค์กร
             </li> */}
             <li>
-              Teaching how to use computers ,computer accessory,computer programs and
-              some electronic devices within the organization
+              Teaching how to use computers, computer accessories, computer
+              programs, and some electronic devices within the organization
               {/* สอนใช้งานคอมพิวเตอร์ อุปกรณ์ต่อพ่วง สอนใช้งานโปรแกรมคอมพิวเตอร์
               และอุปกรณ์อิเล็กทรอนิกส์บางประเภท ภายในองค์กร */}
             </li>
             <li>
-              Analyze, design, develop, test, maintain, set of commands and work
-              systems within the organization as assigned.
+              Analyze, design, develop, test, and maintain, a set of commands
+              and work systems within the organization as assigned.
               {/* วิเคราะห์ความต้องการ ออกแบบ พัฒนา ทดสอบ ดูแลรักษา ชุดคำสั่ง
               และระบบงานภายในองค์กรตามที่รับมอบหมาย */}
             </li>
             <li>
-              Consulting, analyzing, designing, procuring, making purchase
+              Consulting, analyzing, designing, procuring, and making purchase
               orders technology or system to develop the potential of working
               within the organization
               {/* ให้คำปรึกษา วิเคราะห์ ออกแบบ จัดหา จัดทำคำสังซื้อ
               เทคโนโลยีหรือระบบ เพื่อพัฒนาศักยภาพในการทำงานภายในองค์กร */}
             </li>
             <li>
-              Analysis Process statistical data, prepare reports and present as
+              Analysis Process statistical data, prepare reports, and present as
               assigned.
               {/* วิเคราะห์ความต้องการ ประมวลผลข้อมูลทางสถิติ จัดทำรายงาน และนำเสนอ
               ตามที่ได้รับมอบหมาย */}
             </li>
             <li>
-              Installation, maintenance, preparation of audio equipment,
-              projection equipment, conference rooms, conference room systems
-              meeting room via monitor
+              Installation, maintenance, and preparation of audio equipment,
+              projection equipment, conference rooms, and conference room
+              systems meeting room via monitor
               {/* ติดตั้ง ซ่อมบำรุง จัดเตรียม เครื่องเสียง อุปกรณ์ฉายภาพ ห้องประชุม
               ระบบห้องประชุม ห้องประชุมผ่านจอภาพ */}
             </li>
             <li>
-              Contact and coordinate with external agencies computer system
+              Contact and coordinate with external agencies' computer system
               {/* ติดต่อ ประสานงานกับหน่วยงานภายนอกด้าน ระบบสารสนเทศ */}
             </li>
             <li>
-              Planning, designing, controlling, organizing, editing information
-              media, both still graphic and movie video as assigned
+              Planning, designing, controlling, organizing, and editing
+              information media, both still graphic and movie video as assigned
               {/* วางแผน ออกแบบ ควบคุม จัดทำ ตัดต่อ
               สื่อสารสนเทศทั้งภาพนิ่งและภาพเคลื่อนไหว ตามที่ได้รับมอบหมาย */}
             </li>
