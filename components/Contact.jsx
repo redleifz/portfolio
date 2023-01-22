@@ -5,11 +5,12 @@ import Image from "next/image";
 import ContactImg from "../public/assets/contact.jpeg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
+import { ToastContainer, toast } from "react-toastify";
 
 const Contact = () => {
   const submitHandler = (e) => {
-    console.log('sumbit')
-    e.preventDefault()
+    console.log("sumbit");
+    e.preventDefault();
   };
   return (
     <div id="contact" className="w-full mt-6 lg:h-screen">
@@ -145,6 +146,7 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
+              <ToastContainer />
             </div>
           </div>
         </div>
