@@ -7,8 +7,8 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
     <div id="projects" className="w-full mt-6">
-      <div className="w-full ">
-        <div className="flex max-w-[940px] mx-auto justify-between">
+      <div className="w-full flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <ProjectCard
             title="Find Your trip"
             image="https://i.imgur.com/LiG0Rt9.png"
