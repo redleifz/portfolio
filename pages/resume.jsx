@@ -79,15 +79,9 @@ const resume = () => {
             <span className="px-2">|</span>Adobe Photoshop
             <span className="px-2">|</span>Figma
           </p>
+
           <p className="py-2">
-            <span className="font-bold">Other Skills</span>
-            <span className="px-2">|</span>Slack
-            <span className="px-2">|</span>Trello
-            <span className="px-2">|</span>InvisonApp
-            <span className="px-2">|</span>Drawing io
-          </p>
-          <p className="py-2">
-            <span className="font-bold">Speaks</span>
+            <span className="font-bold">Languages</span>
             <span className="px-2">|</span>Thai : Native
             <span className="px-2">|</span>English : Basic
           </p>

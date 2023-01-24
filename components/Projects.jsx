@@ -1,7 +1,4 @@
-import findyourtripImg from "../public/assets/projects/findyourtrip.jpg";
 import React from "react";
-import recipefoodImg from "../public/assets/projects/recipefood.jpg";
-import ProjectItem from "./ProjectItem";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -34,6 +31,21 @@ const Projects = () => {
             demoUrl="https://amazona-frontend.onrender.com/"
             techstack="MERN Stack"
             codeUrl="https://github.com/redleifz/amazona-mern-stack"
+          />
+
+          <ProjectCard
+            title="Netflix"
+            image="https://i.imgur.com/NAm3IUb.png"
+            detail="  I built this application in React JS.
+            This app features user authentication with firebase as well as the
+            firestore cloud storage database. This application is pulling movie
+            data from an the IMDB movie API and displaying different categories.
+            It features horizontal sliding and a featured selection. The
+            useContext hook is also being implemented for app-wide state
+            management."
+            demoUrl="https://netflix-react-tailwind-4dp6cukej-redleifz.vercel.app/"
+            techstack="React-TailwindCSS-Firebase"
+            codeUrl=""
           />
         </div>
       </div>
