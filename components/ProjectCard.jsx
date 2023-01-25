@@ -7,7 +7,15 @@ import { SiExpress } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
 import { SiFirebase } from "react-icons/si";
 
-const ProjectCard = ({ image, title, detail, techstack, demoUrl, codeUrl }) => {
+const ProjectCard = ({
+  _id,
+  image,
+  title,
+  detail,
+  techstack,
+  demoUrl,
+  codeUrl,
+}) => {
   return (
     <div>
       <div className="h-[430px] w-[280px]  shadow-md shadow-gray-400 rounded-t-[20px] hover:scale-105 ease-in duration-300">
@@ -28,7 +36,7 @@ const ProjectCard = ({ image, title, detail, techstack, demoUrl, codeUrl }) => {
             {techstack.map((tech) => {
               if (tech === "React") {
                 return (
-                  <GrReactjs key={tech} className="text-blue-500 mr-[3px]" />
+                  <GrReactjs key={_id} className="text-blue-500 mr-[3px]" />
                 );
               } else if (tech === "Tailwind") {
                 return (
@@ -47,7 +55,7 @@ const ProjectCard = ({ image, title, detail, techstack, demoUrl, codeUrl }) => {
                 );
               } else if (tech === "NodeJs") {
                 return (
-                  <GrNode key={tech} className="text-yellow-200 mr-[3px]" />
+                  <GrNode key={tech} className="text-green-200 mr-[3px]" />
                 );
               } else if (tech === "Firebase") {
                 return (
