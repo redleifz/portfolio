@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
+
+
+
 const Projects = () => {
   return (
     <div id="projects" className="w-full mt-6">
@@ -12,7 +15,7 @@ const Projects = () => {
             detail=" I built this application in ReactJS and is hosted on Vercel.
                 This app is beautiful responsive landing page about help people to find a special trip in a long week day . Let Check it !"
             demoUrl="https://weekaway-react-tailwind.vercel.app/"
-            techstack="React/TailwindCSS"
+            techstack={["React","Tailwind"]}
             codeUrl="https://github.com/redleifz/weekaway-react-tailwind"
           />
           <ProjectCard
@@ -20,7 +23,7 @@ const Projects = () => {
             image="https://i.imgur.com/qLLMlCT.png"
             detail="I built this application in ReactJS and is hosted on Vercel. This app is about recipe food . People can search recipe food using free API. That tell about Ingredients,Instructions and Vdo to do that Let Check it !"
             demoUrl="https://react-recipe-food.vercel.app/"
-            techstack="React/TailwindCSS"
+            techstack={["React","Tailwind"]}
             codeUrl="https://github.com/redleifz/react-recipe-food"
           />
 
@@ -29,7 +32,7 @@ const Projects = () => {
             image="https://i.imgur.com/hdJsVV6.png"
             detail="I build a E-commerce Website using MERN Stack. This app have user and admin role can sample payment using Paypal sandbox. let check it !"
             demoUrl="https://amazona-frontend.onrender.com/"
-            techstack="MERN Stack"
+            techstack={["MongoDB","Express","React","NodeJs"]}
             codeUrl="https://github.com/redleifz/amazona-mern-stack"
           />
 
@@ -44,7 +47,7 @@ const Projects = () => {
             useContext hook is also being implemented for app-wide state
             management."
             demoUrl="https://netflix-react-tailwind-4dp6cukej-redleifz.vercel.app/"
-            techstack="React-TailwindCSS-Firebase"
+            techstack={["React","Tailwind","Firebase"]}
             codeUrl=""
           />
         </div>
