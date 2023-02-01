@@ -41,13 +41,13 @@ const resume = () => {
         <div className="text-center py-4 w-full text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Computer Technicial Support<span className="px-1">|</span>Web
+              Computer Technicial Support<span className="px-1">|</span>Frontend Web
               Developer<span className="px-1"></span>
             </p>
           </div>
           <div className="block sm:hidden">
             <p>
-              Computer Technicial Support<span className="px-1">|</span>Web
+            Computer Technical Officer<span className="px-1">|</span>Web
               Developer<span className="px-1"></span>
             </p>
           </div>
@@ -92,12 +92,13 @@ const resume = () => {
         </h5>
         {/* Experience */}
         <div className="py-6">
-          <p className="italic">
+          {/* <p className="italic">
             <span className="font-bold italic">Court of justice</span>
-            <span className="px-2">|</span> Thailand
-          </p>
+            
+          </p> */}
           <p className="py-1 italic">
             Computer Technicial Support (2017 - Current)
+            <span className="px-2">|</span> Thailand
           </p>
           <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
             <li>
