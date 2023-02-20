@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Jongjate | Front-End Developer</title>
-        <meta name="description" content="I’m a front-end web developer." />
+        <title>Jongjate | Web Developer</title>
+        <meta name="description" content="I’m a Web developer." />
         <link rel="icon" href="" />
       </Head>
 
       <Main />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />

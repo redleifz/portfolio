@@ -76,7 +76,7 @@ const Contact = () => {
               />
               <div>
                 <h2 className="py-2 mt-2 text-[#FF8C32]">Jongjate</h2>
-                <p>Front-End Web Developer</p>
+                <p>Web Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -188,7 +188,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
+        {/* <div className="flex justify-center py-12">
           <Link href="">
             <div
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in  hover:bg-[#EEEEEE]/50
@@ -197,7 +197,7 @@ const Contact = () => {
               <HiOutlineChevronDoubleUp className="text-[#EEE]" size={30} />
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

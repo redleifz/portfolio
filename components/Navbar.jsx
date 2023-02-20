@@ -66,11 +66,11 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/#about" scroll={false}>
+            {/* <Link href="/#about" scroll={false}>
               <li className="text-[#FF8C32] p-3 mx-2  text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 About
               </li>
-            </Link>
+            </Link> */}
             <Link href="/#skills" scroll={false}>
               <li className="text-[#FF8C32] p-3  mx-2 text-sm uppercase hover:bg-orange-400 hover:text-black duration-200">
                 Skills
@@ -144,14 +144,14 @@ const Navbar = () => {
                   <p className="py-5 pl-3">Home</p>
                 </li>
               </Link>
-              <Link href="/#about" scroll={false}>
+              {/* <Link href="/#about" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm pl-2 text-[#ff9545]"
                 >
                   About
                 </li>
-              </Link>
+              </Link> */}
               <Link href="/#skills" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
