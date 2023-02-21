@@ -15,7 +15,7 @@ const Main = () => {
       <div className="absolute h-screen top-0 left-0 right-0 bottom-0 z-[-2] custom-img"></div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="z-[2] text-center">
-          <p className="uppercase py-4 xs:mt-3 text-sm tracking-wide text-[#EEEEEE]">
+          <p className="uppercase xs:hidden lg:block py-4 xs:mt-3 text-md tracking-wide text-[#EEEEEE]">
             Let&apos;s build something together
           </p>
           <div className="flex items-center justify-center">
@@ -41,25 +41,16 @@ const Main = () => {
           </div>
           {/* <span className="text-[#FF8C32]">Jongjate</span> */}
 
-          <h1 className="py-4 text-[#EEEEEE]">A Web Developer</h1>
-          <p>
-            As a passionate web developer,I have experience with React, MongoDB,
-            Node.js, and Express, and have designed and developed web
-            applications and APIs using these technologies. I am always eager to
-            learn and grow my skill set, and am dedicated to producing
-            high-quality, efficient, and maintainable code that meets client
-            requirements. I believe that programming languages and frameworks
-            are simply tools, and I am always excited about exploring new
-            technologies to improve my abilities and provide innovative
-            solutions to clients. With a passion for problem-solving and a
-            commitment to excellence, I am eager to contribute to the success of
-            any project.
-            {/* I am an expert in website front-end development. (And there are
-            times when I do my own design as I have some experience with
-            graphics programs.) I am currently focusing on front-end web
-            development. However, I&apos;m also interested in learning about
-            back-end development. */}
-          </p>
+          <h1 className="text-[#EEEEEE] xs:text-[20px] xs:py-0 lg:py-4 lg:text-[40px]">A Web Developer</h1>
+          <span className="xs:text-[12px] sm:text-[15px] md:text-[18px] lg:text-[22px]">
+            As a passionate web developer, I have experience with React,
+            MongoDB, Node.js, and Express, and have designed and developed web
+            applications and APIs using these technologies. I often spend my
+            free time learning new things with passion. I don't stick to any
+            particular language because I believe that a language is just a tool
+            to solve problems, and I have to choose the right tool for the job
+            and the problem that I have to solve.
+          </span>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10 mt-10">
             <Link href="https://www.linkedin.com/in/jongjate-choomjairug-352a79211/">
               <div
