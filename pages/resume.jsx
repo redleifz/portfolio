@@ -40,14 +40,12 @@ const resume = () => {
         </div>
         <div className="text-center py-4 w-full text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
-            <p>
-              Web Developer<span className="px-1">|</span>Computer Technical Officer<span className="px-1"></span>
-            </p>
+            <p>A Web Developer</p>
           </div>
           <div className="block sm:hidden">
             <p>
-            Computer Technical Officer<span className="px-1">|</span>Web
-              Developer<span className="px-1"></span>
+              <span className="px-1"></span>A Web Developer
+              <span className="px-1"></span>
             </p>
           </div>
         </div>
@@ -63,6 +61,7 @@ const resume = () => {
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span>MUI
             <span className="px-2">|</span> React
             {/* <span className="px-2">|</span> NextJS */}
             <span className="px-2">|</span> MySQL
@@ -77,6 +76,7 @@ const resume = () => {
             <span className="font-bold">Design Skills</span>
             <span className="px-2">|</span>Adobe Photoshop
             <span className="px-2">|</span>Figma
+            <span className="px-2">|</span>Canva
           </p>
 
           <p className="py-2">
@@ -91,14 +91,38 @@ const resume = () => {
         </h5>
         {/* Experience */}
         <div className="py-6">
-          {/* <p className="italic">
-            <span className="font-bold italic">Court of justice</span>
-            
-          </p> */}
-          <p className="py-1 italic">
-          Computer Technical Officer (2017 - Current)
-            <span className="px-2">|</span> Thailand
-          </p>
+          <div className="flex justify-between w-[95%] pt-10 font-bold">
+            <div>
+              {" "}
+              <p className="py-1 italic ">
+                Software developer (May 2023 - current)
+              </p>
+            </div>
+            <div>
+              <span>Bangkok , Thailand</span>
+            </div>
+          </div>
+
+          <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
+            <li>
+              Analyze, design, develop, test, and maintain a web application
+              within the organization as assigned.
+              {/* วิเคราะห์ความต้องการ ออกแบบ พัฒนา ทดสอบ ดูแลรักษา ชุดคำสั่ง
+              และระบบงานภายในองค์กรตามที่รับมอบหมาย */}
+            </li>
+          </ul>
+          <div className="flex justify-between w-[95%] pt-10 font-bold">
+            <div>
+              {" "}
+              <p className="py-1 italic ">
+                Computer Technical Officer (June 2017 - May 2023) | Court of
+                justice
+              </p>
+            </div>
+            <div>
+              <span>Thailand</span>
+            </div>
+          </div>
           <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
             <li>
               Install Computer Equipment, Computer accessories, Network
