@@ -41,9 +41,9 @@ const Main = () => {
           </div>
           {/* <span className="text-[#FF8C32]">Jongjate</span> */}
 
-          <h1 className="text-[#EEEEEE] xs:text-[20px] xs:py-0 lg:py-4 lg:text-[40px]">A Web Developer</h1>
+          <h1 className="text-[#EEEEEE] xs:text-[20px] xs:py-0 lg:py-4 lg:text-[40px]">A Software developer</h1>
           <span className="xs:text-[12px] sm:text-[15px] md:text-[18px] lg:text-[22px]">
-            As a passionate web developer, I have experience with React,
+            As a passionate software developer, I have experience with React,
             MongoDB, Node.js, and Express, and have designed and developed web
             applications and APIs using these technologies. I often spend my
             free time learning new things with passion. I don't stick to any

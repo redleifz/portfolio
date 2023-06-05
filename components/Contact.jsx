@@ -76,7 +76,7 @@ const Contact = () => {
               />
               <div>
                 <h2 className="py-2 mt-2 text-[#FF8C32]">Jongjate</h2>
-                <p>Web Developer</p>
+                <p>Software developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.

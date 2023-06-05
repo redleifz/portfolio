@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Jongjate | Web Developer</title>
-        <meta name="description" content="I’m a Web developer." />
+        <title>Jongjate | Software developer</title>
+        <meta name="description" content="I’m a Software developer." />
         <link rel="icon" href="" />
       </Head>
 

@@ -8,7 +8,7 @@ const resume = () => {
     <>
       <Head>
         <title>Jongjate | Resume</title>
-        <meta name="description" content="I’m a Web developer" />
+        <meta name="description" content="I’m a Software developer" />
         <link rel="icon" href="/fav.png" />
       </Head>
 
@@ -40,11 +40,11 @@ const resume = () => {
         </div>
         <div className="text-center py-4 w-full text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
-            <p>A Web Developer</p>
+            <p>A Software developer</p>
           </div>
           <div className="block sm:hidden">
             <p>
-              <span className="px-1"></span>A Web Developer
+              <span className="px-1"></span>A Software developer
               <span className="px-1"></span>
             </p>
           </div>
@@ -68,8 +68,9 @@ const resume = () => {
             <span className="px-2">|</span> MongoDB
             <span className="px-2">|</span> NodeJS
             {/* <span className="px-2">|</span>Nginx */}
-            <span className="px-2">|</span>Github
+            <span className="px-2">|</span>Github / Gitlab
             {/* <span className="px-2">|</span>Swift */}
+            <span className="px-2">|</span> Docker
           </p>
 
           <p className="py-2">
@@ -105,17 +106,28 @@ const resume = () => {
 
           <ul className="list-disc list-outside px-7 py-2 leading-relaxed">
             <li>
-              Analyze, design, develop, test, and maintain a web application
-              within the organization as assigned.
+              Analyze the needs of the user .
               {/* วิเคราะห์ความต้องการ ออกแบบ พัฒนา ทดสอบ ดูแลรักษา ชุดคำสั่ง
               และระบบงานภายในองค์กรตามที่รับมอบหมาย */}
+            </li>
+            <li>
+              Design, test and develop the software to meet those needs
+              Recommend upgrades for existing systems and programs
+            </li>
+            <li>
+              Document each aspect of a system or application as a reference for
+              future upgrades and maintenance
+            </li>
+            <li>
+              Revisit the development process to fix bugs or address client or
+              consumer concerns
             </li>
           </ul>
           <div className="flex justify-between w-[95%] pt-10 font-bold">
             <div>
               {" "}
               <p className="py-1 italic ">
-                Computer Technical Officer (June 2017 - May 2023) | Court of
+                Computer Technical Officer (June 2017 - April 2023) | Court of
                 justice
               </p>
             </div>
