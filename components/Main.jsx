@@ -14,7 +14,7 @@ const Main = () => {
       <div className="absolute h-screen top-0 left-0 right-0 bottom-0 bg-black/70 z-[1]" />
       <div className="absolute h-screen top-0 left-0 right-0 bottom-0 z-[-2] custom-img"></div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div className="z-[2] text-center">
+        <div className="z-[2] text-center mt-10">
           <p className="uppercase xs:hidden lg:block py-4 xs:mt-3 text-md tracking-wide text-[#EEEEEE]">
             Let&apos;s build something together
           </p>
@@ -41,8 +41,10 @@ const Main = () => {
           </div>
           {/* <span className="text-[#FF8C32]">Jongjate</span> */}
 
-          <h1 className="text-[#EEEEEE] xs:text-[20px] xs:py-0 lg:py-4 lg:text-[40px]">A Software developer</h1>
-          <span className="xs:text-[12px] sm:text-[15px] md:text-[18px] lg:text-[22px]">
+          <h1 className="text-[#EEEEEE] xs:text-[20px] xs:py-0 lg:py-4 lg:text-[40px]">
+            A Software developer
+          </h1>
+          <span className="xs:text-[12px] sm:text-[15px] md:text-[18px] lg:text-[22px] text-justify">
             As a passionate software developer, I have experience with React,
             MongoDB, Node.js, and Express, and have designed and developed web
             applications and APIs using these technologies. I often spend my

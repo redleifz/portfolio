@@ -18,13 +18,13 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="h-[430px] w-[280px]  shadow-md shadow-gray-400 rounded-t-[20px] hover:scale-105 ease-in duration-300">
+      <div className="h-[430px] w-[88vw] sm:w-[45vw] lg:w-[19vw] max-w-[1240px]  rounded-md  shadow-md shadow-gray-400 hover:scale-105 ease-in duration-300">
         <div className="w-full h-[50%]">
-          <img src={image} className="w-full h-full rounded-t-[20px]"></img>
+          <img src={image} className="w-full h-full "></img>
         </div>
-        <div className="w-full h-[32%] px-3 pt-1 whitespace-normal truncate">
-          <p className="text-red-300 font-bold text-[15px]">{title}</p>
-          <p className=" text-white text-[12px] ">{detail}</p>
+        <div className="w-full h-[32%] flex flex-col px-3 pt-1 whitespace-normal overflow-hidden truncate">
+          <span className="text-red-300 font-bold text-[15px] ">{title}</span>
+          <span className=" text-white text-[12px] text-justify ">{detail}</span>
         </div>
         <div className="h-[8%] flex flex-row items-center">
           <div>
@@ -34,6 +34,7 @@ const ProjectCard = ({
           </div>
           <div className="flex flex-row">
             {techstack.map((tech) => {
+          
               if (tech === "React") {
                 return (
                   <GrReactjs key={_id} className="text-blue-500 mr-[3px]" />
@@ -78,7 +79,7 @@ const ProjectCard = ({
           </Link>
           <Link href={codeUrl}>
             <button
-              className="p-1 h-[30px] px-3 rouned bg-black rounded text-white shadow-md shadow-gray-400  hover:bg-[#eee]
+              className="p-1 h-[30px] px-3 bg-black rounded text-white shadow-md shadow-gray-400  hover:bg-[#eee]
                   hover:text-black
                   duration-300"
             >
