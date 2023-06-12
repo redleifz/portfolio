@@ -24,7 +24,9 @@ const ProjectCard = ({
         </div>
         <div className="w-full h-[32%] flex flex-col px-3 pt-1 whitespace-normal overflow-hidden truncate">
           <span className="text-red-300 font-bold text-[15px] ">{title}</span>
-          <span className=" text-white text-[12px] text-justify ">{detail}</span>
+          <span className=" text-white text-[12px] text-justify ">
+            {detail}
+          </span>
         </div>
         <div className="h-[8%] flex flex-row items-center">
           <div>
@@ -33,36 +35,20 @@ const ProjectCard = ({
             </span>
           </div>
           <div className="flex flex-row">
-            {techstack.map((tech) => {
-          
-              if (tech === "React") {
-                return (
-                  <GrReactjs key={_id} className="text-blue-500 mr-[3px]" />
-                );
-              } else if (tech === "Tailwind") {
-                return (
-                  <SiTailwindcss
-                    key={tech}
-                    className="text-blue-300 mr-[3px]"
-                  />
-                );
-              } else if (tech === "MongoDB") {
-                return (
-                  <SiMongodb key={tech} className="text-green-500 mr-[3px]" />
-                );
-              } else if (tech === "Express") {
-                return (
-                  <SiExpress key={tech} className="text-slate-200 mr-[3px]" />
-                );
-              } else if (tech === "NodeJs") {
-                return (
-                  <GrNode key={tech} className="text-green-200 mr-[3px]" />
-                );
-              } else if (tech === "Firebase") {
-                return (
-                  <SiFirebase key={tech} className="text-orange-400 mr-[3px]" />
-                );
-              }
+            {techstack.map((tech, index) => {
+              return tech === "React" ? (
+                <GrReactjs key={index} className="text-blue-500 mr-[3px]" />
+              ) : tech === "Tailwind" ? (
+                <SiTailwindcss key={index} className="text-blue-300 mr-[3px]" />
+              ) : tech === "MongoDB" ? (
+                <SiMongodb key={index} className="text-green-500 mr-[3px]" />
+              ) : tech === "Express" ? (
+                <SiExpress key={index} className="text-slate-200 mr-[3px]" />
+              ) : tech === "NodeJs" ? (
+                <GrNode key={index} className="text-green-200 mr-[3px]" />
+              ) : tech === "Firebase" ? (
+                <SiFirebase key={index} className="text-orange-400 mr-[3px]" />
+              ) : null;
             })}
           </div>
         </div>

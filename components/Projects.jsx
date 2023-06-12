@@ -57,7 +57,7 @@ const Projects = () => {
         {projectSet.map((tech) => (
           <div key={tech._id}>
             <ProjectCard
-              key={tech._id}
+              key={tech._id} // Assign a unique key to the ProjectCard component
               title={tech.title}
               image={tech.image}
               techstack={tech.techstack}
