@@ -53,9 +53,9 @@ const Projects = () => {
       <p className="text-xl mx-5 py-5  tracking-widest uppercase text-[#FF8C32]">
         My Projects
       </p>
-      <div className="grid px-4 justify-center w-full items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid px-3 w-full items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {projectSet.map((tech) => (
-          <div key={tech._id}>
+          <div key={tech._id} className="flex justify-center">
             <ProjectCard
               key={tech._id} // Assign a unique key to the ProjectCard component
               title={tech.title}
