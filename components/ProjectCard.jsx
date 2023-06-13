@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="h-[430px] w-[88vw] sm:w-[45vw] lg:w-[19vw] max-w-[1240px]  rounded-md  shadow-md shadow-gray-400 hover:scale-105 ease-in duration-300">
+      <div className="h-[430px] w-[88vw] sm:w-[45vw] lg:w-[14vw] max-w-[1240px]  rounded-md  shadow-md shadow-gray-400 hover:scale-105 ease-in duration-300">
         <div className="w-full h-[50%]">
           <img src={image} className="w-full h-full "></img>
         </div>
