@@ -50,10 +50,10 @@ const Projects = () => {
       id="projects"
       className="w-screen mt-6  max-w-[1240px] flex justify-center flex-col"
     >
-      <p className="text-xl ml-5 py-5  tracking-widest uppercase text-[#FF8C32]">
+      <p className="text-xl mx-5 py-5  tracking-widest uppercase text-[#FF8C32]">
         My Projects
       </p>
-      <div className="grid px-5 justify-center w-full items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid px-4 justify-center w-full items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {projectSet.map((tech) => (
           <div key={tech._id}>
             <ProjectCard

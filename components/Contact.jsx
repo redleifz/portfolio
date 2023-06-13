@@ -66,7 +66,7 @@ const Contact = () => {
         </p>
         <h2 className="py-4 ml-5">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
               <Image
                 className="rounded-xl shadow-sm shadow-gray-400 hover:scale-105 ease-in duration-300"
@@ -102,7 +102,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="col-span-3 w-full h-auto shadow-lg shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-sm shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form onSubmit={(e) => submitHandler(e)}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
