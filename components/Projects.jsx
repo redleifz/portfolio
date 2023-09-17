@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-screen mt-6  max-w-[1240px] flex justify-center flex-col"
+      className="w-screen mt-6  mx-auto max-w-[1240px] flex justify-center flex-col"
     >
       <p className="text-xl mx-5 py-5  tracking-widest uppercase text-[#FF8C32]">
         My Projects
