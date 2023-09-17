@@ -13,14 +13,14 @@ export default function Home() {
         <meta name="description" content="I’m a Software developer." />
         <link rel="icon" href="" />
       </Head>
-      <div className="flex flex-col justify-center items-center">
+
         {" "}
         <Main />
         {/* <About /> */}
         <Skills />
         <Projects />
         <Contact />
-      </div>
+    
     </div>
   );
 }
